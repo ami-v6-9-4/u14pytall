@@ -7,14 +7,15 @@ python:
   - "2.7" #12
   - "3.4" #3
   - "3.5" #5
-  - "3.6" #4
+  - "3.6" #5
+  - "3.7" #.0
   - pypy # 5.10.0
   - pypy3 # 5.10.1
-        
+
 build:
   pre_ci_boot:
     image_name: drydock/u14pytall
-    image_tag: v6.3.4
+    image_tag: v6.5.4
     pull: true
    
   ci:
