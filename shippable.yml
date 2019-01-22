@@ -4,15 +4,15 @@ runtime:
   nodePool: dynamic__x86_64__Ubuntu_14_04__c4_large
   
 python:
-  - "2.7" #12
+  - "2.7" #14
   - "3.7" #.0
   - pypy # 6.0.0
   - pypy3 # 6.0.0
- 
+
 build:
   pre_ci_boot:
     image_name: drydock/u14pytall
-    image_tag: v6.8.4
+    image_tag: v6.9.4
     pull: true
    
   ci:
